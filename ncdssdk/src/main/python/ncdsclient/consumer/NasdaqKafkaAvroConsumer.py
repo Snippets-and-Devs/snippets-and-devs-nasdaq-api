@@ -132,7 +132,7 @@ class NasdaqKafkaAvroConsumer():
             a :class:`.KafkaAvroConsumer` instance with a key and value deserializer set through the avro_schema parameter
         """
         if 'group.id' not in self.kafka_props:
-            self.kafka_props[self.kafka_config_loader.GROUP_ID_CONFIG] = f'{self.client_ID}_{stream_name}_{datetime.datetime.today().day}'
+            self.kafka_props[self.kafka_config_loader.GROUP_ID_CONFIG] = f'{self.client_ID}'
         return KafkaAvroConsumer(self.kafka_props, avro_schema)
 
     def get_schema_for_topic(self, topic):

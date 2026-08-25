@@ -31,8 +31,7 @@ class ReadSchemaTopic:
 
     def read_schema(self, topic):
         auth_config_loader = AuthenticationConfigLoader()
-        schema_consumer = self.get_consumer(
-            "Control-" + auth_config_loader.get_client_id(self.security_props))
+        schema_consumer = self.get_consumer(auth_config_loader.get_client_id(self.security_props))
         latest_record = None
         num_messages = self.kafka_props[self.kafka_config_loader.NUM_MESSAGES]
         timeout = self.kafka_props[self.kafka_config_loader.TIMEOUT]

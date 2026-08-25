@@ -1,7 +1,8 @@
 import logging
 import sys
 from confluent_kafka import OFFSET_BEGINNING, OFFSET_INVALID
-from datetime import datetime, date, timedelta, time
+from datetime import datetime, timedelta
+import pytz
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +35,5 @@ def seek_to_midnight_at_past_day(kafka_avro_consumer, topic_partition, num_days_
 
 
 def get_timestamp_at_midnight(num_days_ago=0):
-    past_day = date.today()-timedelta(days=num_days_ago)
-    midnight = datetime.combine(past_day, time.min)
+    midnight = datetime.now(pytz.timezone('America/New_York')).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=num_days_ago)
     return int(midnight.timestamp() * 1000)
