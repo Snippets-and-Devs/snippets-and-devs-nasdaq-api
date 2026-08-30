@@ -5,35 +5,42 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 # Products Currently Available
 ### Equities
 #### The Nasdaq Stock Market
-- [Nasdaq Basic](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NasdaqBasic-Cloud.pdf) (real-time & delayed)
-- [Nasdaq Last Sale+](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NLSPlus-cloud.pdf) (real-time & delayed)
-- [Nasdaq TotalView](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/Totalview-ITCH-cloud.pdf)
-- [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf) (real-time & delayed)
-#### Nasdaq BX
-- [BX BBO](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/BX_BBO_Cloud.pdf)
-- [BX Last Sale](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/BLS_Cloud.pdf)
+- [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)(real-time & delayed)
+- [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf) (real-time & delayed)
+- [Nasdaq TotalView](https://assets.ctfassets.net/mx0rke14e5yt/4dUk9wkzHqggnKqfCtLMDz/78029c0f20980400baf218c993f3f11d/2-13_Nasdaq_ITCH_Products_5.pdf)
+- [Nasdaq Consolidated Quotes and Trades](https://assets.ctfassets.net/mx0rke14e5yt/19Ud7WoFVS17VcIk4efxNd/aa7a3bd8888cce5e85850da88cc4a352/2-13CQT-cloud.pdf) (real-time & delayed)
+- [Nasdaq Retail Equity Pulse](https://assets.ctfassets.net/mx0rke14e5yt/v8xijLGCLz99e4ToQZd9w/f71f98bbdedef9dd4bcfb8347e30c193/Retail_Equity_Pulse_-_Nasdaq_Data_Link_Format.pdf)
+#### Nasdaq Texas
+- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [Texas Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
 #### Nasdaq PSX
-- [PSX BBO](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PSX_BBO_Cloud.pdf)
-- [PSX Last Sale](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PLS_Cloud.pdf)
+- [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
 #### Nasdaq Canada
 - [Nasdaq Canada Basic](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/Nasdaq-Basic-Canada-Cloud-Specification.pdf)
 #### OTC Markets
 - [OTC Markets](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/OTCM-cloud.pdf) (real-time & delayed)
+#### Bruce Markets
+- [Bruce Best Bid and Offer](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [Bruce Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
+- [Bruce Depth of Book](https://assets.ctfassets.net/mx0rke14e5yt/2nwLafPib6CgIbFu63K4zo/71480a8ab9bb6f97190f056da7133c2e/Nasdaq_ITCH_Products_2025-1.pdf)
 ### Indexes & ETPs
 - [Global Index Data Service](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GIDS_Cloud.pdf)
 ### Options
 #### Nasdaq U.S. Derivatives
-- [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
+- [Nasdaq Smart Options](https://assets.ctfassets.net/mx0rke14e5yt/3gppm9eBrAWblpOZlJaRYT/42fbf4e0e3b81a2b44de3be55e29b897/GTH_-_NCDS_Smart_Options_Specifications.pdf)
 - [Nasdaq Options Greeks and Implied Volatility](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification.pdf)
+- [Nasdaq Options Greeks and Implied Volatility Powered by Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/5TJxpG0Cjk1tNUIRP4rZ86/5d77161ead15d746872d2ff17ba6ac06/Greeks_and_Vols_Powered_by_Basic_Streaming_Specs.pdf)
 ### Mutual Funds
 - [Nasdaq Fund Network](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NFNDS_NCDS.pdf)
 ### News
-- [Financial News](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/MTNewswires-cloud.pdf)
+- [Financial News - MT Newswires](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/MTNewswires-cloud.pdf)
+- [Benzinga Market Newswires](https://data.nasdaq.com/databases/BENZ)
 
 # Items To Note
 
 * Connecting to the API requires credentials, which are provided by the Nasdaq Data Operations team during an on-boarding process
-* This sample code only connects to one topic (NLSCTA); during on-boarding process, you will receive a topic list that you're entitled to.
+* This sample code only connects to one topic (NLSPLUS-CTA-V4); during on-boarding process, you will receive a topic list that you're entitled to.
 * See https://github.com/Nasdaq/NasdaqCloudDataService-SDK-Java for our officially support Java-based SDK.
 
 
@@ -143,7 +150,7 @@ A few examples:
 
 Get first 100 records for given stream
 
-```python3.9 ncdssdk_client/src/main/python/ncdsclient/NCDSSession.py -opt TOP -n 100 -topic NLSCTA```
+```python3.9 ncdssdk_client/src/main/python/ncdsclient/NCDSSession.py -opt TOP -n 100 -topic NLSPLUS-CTA-V4```
 
 Get all available streams
 
@@ -184,15 +191,15 @@ kafka_cfg = {
   ```
   List of streams available on Nasdaq Cloud Data Service:
   GIDS
-  NLSUTP
-  NLSCTA
+  NLSPLUS-UTP-V4
+  NLSPLUS-CTA-V4
   ```
 
   ### Getting schema for the stream
   This method returns the schema for the stream in Apache Avro format (https://avro.apache.org/docs/current/spec.html)
   ```python
   ncds_client = NCDSClient(security_cfg, kafka_cfg)
-  topic = "NLSCTA"
+  topic = "NLSPLUS-CTA-V4"
   schema = ncds_client.get_schema_for_topic(topic)
   print(schema)
   ```
@@ -234,7 +241,7 @@ kafka_cfg = {
   ### Get first 10 messages of the stream 
   ```python
   ncds_client = NCDSClient(security_cfg, kafka_cfg)
-  topic = "NLSCTA"
+  topic = "NLSPLUS-CTA-V4"
   records = ncds_client.top_messages(topic)
   for i in range(0, 10):
       print("key: ", records[i].key())
@@ -242,7 +249,7 @@ kafka_cfg = {
   ```
   Example output:
   ```
-  Top 10 Records for the Topic: NLSCTA
+  Top 10 Records for the Topic: NLSPLUS-CTA-V4
 key: 14600739
 value: {"SoupPartition": 0, "SoupSequence": 14600739, "trackingID": 72000000024569, "msgType": "S", "event": "E", "schema_name": "SeqSystemEventMessage"}
 key: 14600740
@@ -269,7 +276,7 @@ value: {"SoupPartition": 0, "SoupSequence": 14600748, "trackingID": 729000000065
 This returns the first 10 available messages of the stream given timestamp in milliseconds since the UNIX epoch.
 ```python
 ncds_client = NCDSClient(security_cfg, kafka_cfg)
-topic="NLSCTA"
+topic="NLSPLUS-CTA-V4"
 timestamp = 1590084446510
 records = ncds_client.top_messages(topic, timestamp)
 for i in range(0, 10):
@@ -280,7 +287,7 @@ for i in range(0, 10):
 Example output:
 ```
 Offset: 105834100
-Top 10 Records for the Topic:NLSCTA
+Top 10 Records for the Topic:NLSPLUS-CTA-V4
 key:9362630
 value :{"SoupPartition": 0, "SoupSequence": 9362630, "trackingID": 50845551492208, "msgType": "T", "marketCenter": "L", "symbol": "SIVR    ", "securityClass": "P", "controlNumber": "0000A2MLOB", "price": 164797, "size": 1, "saleCondition": "@  o", "cosolidatedVolume": 520174}
 key:9362631
@@ -307,7 +314,7 @@ value :{"SoupPartition": 0, "SoupSequence": 9362639, "trackingID": 5084560059456
 Print message to the console for given message name.
 ```python
 ncds_client = NCDSClient(security_cfg, kafka_cfg)
-topic = "NLSCTA"
+topic = "NLSPLUS-CTA-V4"
 print(ncds_client.get_sample_messages(topic, "SeqDirectoryMessage", all_messages=False))
 ```
 
@@ -320,7 +327,7 @@ Example output:
 ```python
 
 ncds_client = NCDSClient(security_cfg, kafka_cfg)
-topic = "NLSCTA"
+topic = "NLSPLUS-CTA-V4"
 consumer = ncds_client.ncds_kafka_consumer(topic)
 while True:
     messages = consumer.consume(num_messages=1, timeout=5)
@@ -354,39 +361,39 @@ value :{"SoupPartition": 0, "SoupSequence": 10, "trackingID": 11578719950254, "m
 
 2. To display the schema for the given topic
 
-```python3.9 NCDSSession.py -opt SCHEMA -topic NLSCTA```
+```python3.9 NCDSSession.py -opt SCHEMA -topic NLSPLUS-CTA-V4```
 
 3. To dump top n records from the given topic
 
-```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSCTA```
+```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSPLUS-CTA-V4```
 
 4. To use client based specific authorization file instead of using from the resources of client code base
 
-```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSCTA -authprops client-authentication-config.json```
+```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSPLUS-CTA-V4 -authprops client-authentication-config.json```
 
 5. To use the specific kafka properties instead of using the kafka properties from the resources of the client base code
 
-```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSCTA -kafkaprops kafka-config.json```
+```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSPLUS-CTA-V4 -kafkaprops kafka-config.json```
 
 6. To use the specific client based authorization file and specific kafka properties file
 
-```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSCTA -authprops client-authentication-config.json -kafkaprops kafka-config.json```
+```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSPLUS-CTA-V4 -authprops client-authentication-config.json -kafkaprops kafka-config.json```
 
 7. To display a specific message type
 
-```python3.9 NCDSSession.py -opt GETMSG -topic NLSCTA -msgname SeqDirectoryMessage```
+```python3.9 NCDSSession.py -opt GETMSG -topic NLSPLUS-CTA-V4 -msgname SeqDirectoryMessage```
 
 8. To dump top n records from the given topic from given timestamp in milliseconds since the UNIX epoch
 
-```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSCTA -timestamp 1590084445610```
+```python3.9 NCDSSession.py -opt TOP -n 10 -topic NLSPLUS-CTA-V4 -timestamp 1590084445610```
 
 9. To retrieve a continuous stream of messages from the given topic
 
-```python3.9 NCDSSession.py -opt CONTSTREAM -topic NLSCTA```
+```python3.9 NCDSSession.py -opt CONTSTREAM -topic NLSPLUS-CTA-V4```
 
 10. To retrieve a stream of messages from the given topic, filtered by symbols or message names
 
-```python3.9 NCDSSession.py -opt FILTERSTREAM -topic NLSCTA -symbols SPCE```
+```python3.9 NCDSSession.py -opt FILTERSTREAM -topic NLSPLUS-CTA-V4 -symbols SPCE```
 
 ## Documentation
 
